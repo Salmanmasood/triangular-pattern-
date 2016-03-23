@@ -10,6 +10,7 @@ namespace rightangle_triangle
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("welcome to program....");
             int hYPO, pERP, bASE;
             Console.Write("Enter the side A: ");
             int a = int.Parse(Console.ReadLine());
