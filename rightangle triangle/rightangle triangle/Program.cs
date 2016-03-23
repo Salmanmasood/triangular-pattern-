@@ -62,10 +62,37 @@ namespace rightangle_triangle
             {
                 Console.WriteLine("TRIANGLE IS  not A Right angle triangle......");
                 int m = 20, n = 1;
-                Console.ForegroundColor = ConsoleColor.Red;
+                
                 for (int y = 0; y <= 20; y++) // outer loop
                 {
-
+                    if (y==0)
+                    {
+                        Console.ForegroundColor = ConsoleColor.Red;
+                    }
+                    else if (y==1)
+                    {
+                        Console.ForegroundColor = ConsoleColor.Blue;
+                    }
+                    else if (y == 3)
+                    {
+                        Console.ForegroundColor = ConsoleColor.Cyan;
+                    }
+                    else if (y == 4)
+                    {
+                        Console.ForegroundColor = ConsoleColor.DarkGreen;
+                    }
+                    else if (y == 5)
+                    {
+                        Console.ForegroundColor = ConsoleColor.Yellow;
+                    }
+                    else if (y == 6)
+                    {
+                        Console.ForegroundColor = ConsoleColor.Green;
+                    }
+                    else
+                    {
+                        Console.ForegroundColor = ConsoleColor.Red;
+                    }
                     for (int i = 1; i <= m; i++) // space printer
                     {
                         Console.Write(" ");
